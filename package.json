@@ -1,0 +1,36 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "blog api using nodejs and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "Express",
+    "js",
+    "Akshay",
+    "Nagarwal"
+  ],
+  "author": "Akshay Nagarwal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.31.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.2.0"
+  }
+}
